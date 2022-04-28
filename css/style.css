@@ -134,15 +134,21 @@
     /* padding-left: 50px; */
 }
 
-.ps-plus-img {
-    max-height: 200px;
+.ps-plus-logo {
+    max-height: 100px;
     object-fit: contain;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
+.ps-plus-img {
+    max-height: 500px;
+}
 
+/* ps-store */
 
-
+.ps-store-img {
+    max-height: 400px;
+}
 
 
 
@@ -166,10 +172,13 @@
         margin-bottom: 10px;
     }
 
-
     .ps4-img {
         max-height: 150px;
         object-fit: contain;
+    }
+
+    .ps-store-img {
+        max-height: 300px;
     }
 }
 /* mediaquery playstation sm */
