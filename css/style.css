@@ -5,17 +5,32 @@
 .padding-top {
     padding-top: 300px;
 }
+
+.white {
+    color: white;
+    font-size: 18px;
+}
+.center {
+    text-align: center;
+}
+
+.margin-left {
+    margin-left: 30px;
+}
 /* jumbotron */
 .bckg-img {
     background-image: url(../img/jumbo-bg.png);
-    height: 675px;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 100%;
 }
 
 .text {
     color: white;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
 }
 
 .orange-button {
@@ -31,12 +46,7 @@
     max-height: 100px;
     border-radius: 20px;
 }
-/* mediaquery img */
-@media  screen and (max-width:990px) {
-    .contain {
-        margin-bottom: 10px;
-    }
-}
+
 
 /* playstation 5 */
 #blue {
@@ -51,10 +61,10 @@
     margin-top: 50px;
 }
 
-#ps5-button {
+.blue-button {
     color: white;
     background-color: blue;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -73,6 +83,100 @@
 .it-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     max-width: 100%;
-    height: 675px;
-    background-size: contain;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* giochi disponibili */
+.bckg-game {
+    background-color: black;
+}
+
+.game-img {
+    max-height: 180px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.game-text {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sub-title{
+    display: block;
+    color: grey;
+    font-size: 20px;
+}
+
+.ps4-img {
+    max-height: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* playstation plus */
+.bckg-plus {
+    margin: 100px 0;
+    background-color: lightgrey;
+    height: 800px;
+}
+
+.ps-plus {
+    padding-top: 200px;
+    /* padding-left: 50px; */
+}
+
+.ps-plus-img {
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media screen */
+/* mediaquery md */
+@media screen and (max-width:990px) {
+    .contain {
+        margin-bottom: 10px;
+    }
+
+
+    .ps4-img {
+        max-height: 150px;
+        object-fit: contain;
+    }
+}
+/* mediaquery playstation sm */
+@media screen and (max-width: 762px) {
+    .media-center {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
