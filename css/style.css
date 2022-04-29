@@ -141,7 +141,7 @@
 }
 
 .ps-plus-img {
-    max-height: 500px;
+    max-height: 100%
 }
 
 /* ps-store */
@@ -150,13 +150,24 @@
     max-height: 400px;
 }
 
+/* ps now */
+.bckg-now {
+    background-color: rgb(32, 12, 122);
+    height: 800px;
+}
 
+#ps-now-logo {
+    max-height: 150px;
+}
 
+#text-now {
+    color: white;
+    font-size: 18px;
+}
 
-
-
-
-
+.social-img {
+    max-height: 200px;
+}
 
 
 
@@ -166,6 +177,7 @@
 
 
 /* media screen */
+
 /* mediaquery md */
 @media screen and (max-width:990px) {
     .contain {
@@ -180,12 +192,34 @@
     .ps-store-img {
         max-height: 300px;
     }
+
+    .social-img {
+        max-height: 170px;
+    }
 }
-/* mediaquery playstation sm */
+
+/* mediaquery sm */
 @media screen and (max-width: 762px) {
     .media-center {
         text-align: center;
         margin-bottom: 20px;
     }
+
+    .social-img {
+        max-height: 120px;
+    }
 }
+
+
+/* mediaquery xs */
+@media screen and (max-width: 575px) {
+
+    .social-img {
+        max-height: 200px;
+    }
+}
+
+
+
+
 
