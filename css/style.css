@@ -22,6 +22,12 @@
 .margin-left {
     margin-left: 30px;
 }
+
+#txt-right {
+    display: block;
+    text-align: end;
+}
+
 /* jumbotron */
 .bckg-img {
     background-image: url(../img/jumbo-bg.png);
